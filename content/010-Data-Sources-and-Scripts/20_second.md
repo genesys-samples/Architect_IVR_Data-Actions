@@ -7,6 +7,8 @@ weight: 20
 ## Data Table Construction
 ![image](/images/DTlimits.PNG)
 
+For this portion of the workshop we will construct an internal data source, or data table. The best practice when constructing a data table is asking the question - "What data would I possibly want to action off of, or present to an agent". While these tables can be added to down the line, "the art of the possible" is the best possible mindset in construction.
+
 To begin we will navigate to Admin > Data Tables and select the **+** icon on the top right corner to construct a new table.
 
 Data Tables have 2 primary components that we will need to define prior to populating our data table -

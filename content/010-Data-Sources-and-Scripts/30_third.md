@@ -5,43 +5,31 @@ weight: 30
 ---
 
 ## Data Table Construction
-![image](/images/DTlimits.PNG)
 
-To begin we will navigate to Admin > Data Tables and select the **+** icon on the top right corner to construct a new table.
+To begin we will navigate to Admin > Scripts and create a new script. After providing a name you will be presented a list of default script options, for this workshop we will use a **Blank Script**.
 
-Data Tables have 2 primary components that we will need to define prior to populating our data table -
+Welcome to the blank canvas! While we encourage all forms of artistic design, for this portion of the workshop we will build a script that, while not the most beautiful, demonstrates the simplicity of providing powerful information to the agents.
 
-  * **Reference Key Label** - This is the 'key', or the piece of data that will be used to reference a specific row in the data table. In the example below we are using ANI, or the callers phone number, to look up the specific row of data.
-  > **During construction, ANI is simply the name we are giving this column, or key. You are not constrained to defining exactly what data will go into this key.**
+To begin, it is important to understand the basic concepts of script construction. The basic building blocks of scripts are **Horizontal Containers** and **Vertical Containers**. Simply put, do you want your components to align left to right? or top down?
 
-  * **Custom Fields** - These fields are ultimately the data we are trying to gather by looking up the customers ANI. This could be as simple as their name and address, KB articles based upon their account, or items such as external account numbers for use in future data actions. 
-> **In the image below you can see the 4 variable types for these fields. Upon selecting a variable type you will need to name the field, and if desired provide a default value (this is useful if many rows will house the same data for the agent script or routing).**
+In the image below, you can see the 2 container types of horizontal and vertical at the top tool bar. 
 
-![image](/images/datatableconstruction.PNG)
+![image](/images/scriptcontainers.PNG)
 
-For our use case we will construct a data table with the following **string** type fields (with the key of ANI) -
-  * Customer Name
-  * Services
-  * Embedded map
-  * KB URL
+Containers are capable of being nested, meaning you can have containers within containers. At the bottom of the screen you can see what container you're currently interacting with and easily navigate between these containers by clicking on lower or higher level containers.
 
-We will begin by populating a single row into this data table. 
+![image](/images/scriptnesting.PNG)
 
-For ANI, we will enter in the number we will be calling from (we will not use .e164 or dashes as it will simplify ANI parsing later on). 
+In the image below, we have a horizontal container with 2 nested horizontal containers stacked side by side. 
 
-For Customer Name you can enter any name you would like.
+![image](/images/scripthorizontalstack.PNG)
 
-For Services, we will define 2 services by a pipe, such as "Insurance|Childcare".
+This allows us to split a single horizontal container into 2 separate containers, and input components such as buttons into separate portions of the screen. Below we can see a button in both of the horizontal containers, creating a visual separation of these components.
 
-For Embedded map we will enter the following URL -
-```
-https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4328.119139375052!2d-105.04811270372998!3d39.90911499772483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8bb21a22f617%3A0xa3877b5da434ea5f!2sOrchard%20Park!5e0!3m2!1sen!2sus!4v1659042755728!5m2!1sen!2sus
-```
-For KB URL you can enter a URL to any page you would like.
-> **Note: Not every web page is configured to be i-frameable, so it is important to test and ensure these pages display correctly at the script configuration.
+![image](/images/scriptbuttons.PNG)
 
-Once you have completed your row entry, it should look something like this -
+There are numerous visual editors we can add to these containers, such as background color or borders (both of which can be found by selecting the container and selecting appearance on the right hand side).
 
-![image](/images/DTrow.PNG)
+![image](/images/scriptcontainerappearance.PNG)
 
-We've now completed our internal data source! You can continue to add additional fields to this data table as needed (to the constraints of the limits above).
+Within layout, we can define visualizations such as **Child Arrangement** (do I want my buttons centered, at the start or at the end of a container?) and **Visibility** (do I only want to show this component based upon other parameters?)
