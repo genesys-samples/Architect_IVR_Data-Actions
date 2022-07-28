@@ -4,13 +4,22 @@ chapter: true
 weight: 1
 ---
 
-# Genesys Workshop
+# Genesys Workshop Series
 
-### Welcome
+## Welcome to the Genesys Cloud Data Action Workshop
 
-In this workshop you will learn to apply your foundational knowledge of [Genesys](https://genesys.com) and master example use cases that demonstrate [Experience as a Service](https://www.genesys.com/experience-as-a-service).
+### Prerequisites
+Architect Workshop
+Data Action Construction Workshop
 
 ### Learning Objectives
-- Setup and configure your environment.
-- Creating users and groups.
-- Configure security.
+
+**In this workshop, you will learn...**
+
+
+1. How to build an internal data source
+2. How to build a fully dynamic script with internal and external data source maps
+3. How to use advanced script functions such as custom actions
+3. How to use the Architect expression builder and wizard
+4. Best practices to apply to flow and script construction
+
