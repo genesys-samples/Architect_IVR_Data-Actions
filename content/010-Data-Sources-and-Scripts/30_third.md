@@ -10,7 +10,13 @@ To begin we will navigate to Admin > Scripts and create a new script. After prov
 
 Welcome to the blank canvas! While we encourage all forms of artistic design, for this portion of the workshop we will build a script that, while not the most beautiful, demonstrates the simplicity of providing powerful information to the agents.
 
-To begin, it is important to understand the basic concepts of script construction. The basic building blocks of scripts are **Horizontal Containers** and **Vertical Containers**. Simply put, do you want your components to align left to right? or top down?
+To begin, it is important to understand the concepts of script construction. 
+
+Scripts can be very simple with static components, meaning we can display the same script to a set of agents (or all agents) on every call. Even a static script can provide incredibly beneficial information, or even embedded tools to an agent.
+
+Scripts can also grow to become more advanced with external data actions and fully dynamic variables. Using custom script actions you can allow agents to trigger API calls to internal or external systems with a click of a button, such as updating a customer record in an external CRM.
+
+The basic building blocks of scripts are **Horizontal Containers** and **Vertical Containers**. Simply put, do you want your components to align left to right? or top down?
 
 In the image below, you can see the 2 container types of horizontal and vertical at the top tool bar. 
 
@@ -33,3 +39,7 @@ There are numerous visual editors we can add to these containers, such as backgr
 ![image](/images/scriptcontainerappearance.PNG)
 
 Within layout, we can define visualizations such as **Child Arrangement** (do I want my buttons centered, at the start or at the end of a container?) and **Visibility** (do I only want to show this component based upon other parameters?)
+
+Below we can see both buttons being centered within their containers with a child arrangement of center.
+
+![image](/images/scriptcentered.PNG)
