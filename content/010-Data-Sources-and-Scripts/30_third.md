@@ -51,9 +51,11 @@ There are numerous visual editors we can add to these containers, such as backgr
 
 ![image](/images/scriptcontainerappearance.PNG)
 
-Within layout, we can define visualizations such as **Child Arrangement** (do I want my buttons centered, at the start or at the end of a container?) and **Visibility** (do I only want to show this component based upon other parameters?)
+Within layout, we can define visualizations such as width and height, as well as **Child Arrangement** (do I want my buttons centered, at the start or at the end of a container?) and **Visibility** (do I only want to show this component based upon other parameters?)
 
-Below we can see both buttons being centered on a black background within their containers with a child arrangement of center.
+Width and height all you to define the size of a component. For some components such as containers, leaving them to stretch or auto-size will allow them to fill up the space they need. Components such as images may need to be manually sized.
+
+By selecting each of our button containers and setting child arrangement to **center** we can see the buttons shift to the center of the container.
 
 ![image](/images/scriptcentered.PNG)
 
@@ -82,11 +84,14 @@ Our script is now displaying a static greeting that agents can read on every cal
 
 There are a few different types of variables which we will break down into two categories - 
 
-1. **Native, or scripter variables.**
- > **These are built in variables that can be referenced without any additional configuration, such as the agent and queue name**
+**1. Scripter variables.**
 
-2. **Custom variables.**
- > **These variables are created by you to customize your script, trigger visibility, data actions, script actions, etc.**
+**2. Custom variables.**
+
+ #### Scripter Variables
+These are built in variables that can be referenced without any additional configuration, such as the agent and queue name. A full list can be found by selecting the variable (or cube shaped icon in the upper right corner) and expanding the "Scripter" drop down.
+
+![image](/images/scriptscriptervariables.PNG)
 
 Some fields require selecting your variable in a dropdown, while in other fields you can reference/input a variable by typing 2 squiggly brackets (as they're known in the science community), or **{{** when interacting with an input field such as a text box.
 
@@ -96,6 +101,70 @@ In the example below, we will make a fully customized script by simply adding "M
 
 ![image](/images/scriptagentvariable.PNG)
 
-Below is an example where we've searched "Name" in the search field (searching becomes very useful as your scripts grow to 10's or hundres of custom variables).
+Below is an example where we've searched "Name" in the search field (searching becomes very useful as your scripts grow to tens or hundreds of custom variables).
 
 ![image](/images/scriptvariablesearch.PNG)
+
+Non-input variables, along with many other components, can be tested by selecting preview script on the top right of the script interface.
+
+![image](/images/scriptpreview.PNG)
+
+Within the preview window, we can see our {{Scripter.Agent Name}} variable is now displaying the names on our account. The preview window is useful for testing components and displaying the script without all of the container formatting. It can be exited by selecting the preview script button again.
+
+#### Custom Variables
+These variables are created by you to customize your script, trigger visibility, data actions, script actions, etc.
+
+By navigating back to the variable panel on the upper right corner, and selecting the **+** icon you can see a list of the different variable types. We will focus on **Basic String** types for this workshop. You can click [**Here**](https://help.mypurecloud.com/articles/dynamic-script-variables/) for information on dynamic variables.
+
+The variable constructor allows you to define whether the values of the variable will be output from the script (to use in another source) or input to the script from another source (such as an architect flow). You can also define default values to display static information if no value is defined.
+
+We will construct the following 3 variables which map directly to the data table we constructed previously, these will all be set as **Input** with no default value - 
+  * Customer Name
+  * Embedded Map
+  * KB URL
+
+![image](/images/scriptcustomvariable.PNG)
+
+When you're done, you should have a list that looks like this - 
+
+![image](/images/scriptvariablelist.PNG)
+
+### Building our Script
+
+With our 3 variables created, we will add the necessary components to map them to.
+
+To start, we will delete the 2 buttons we've created (by selecting the button and clicking the trash can on the right side), making sure not to delete the containers themselves. Within the now empty containers, we will add web pages by selecting the **globe** icon while interacting with the container. The result should look like this - 
+
+![image](/images/scriptwebpages.PNG)
+
+> **You can select the webpage and navigate to layout to adjust the size**
+
+We will now map our Embedded Map and KB URL variables to these by selecting a web page component and inputing the variable into the "Web Page Source" Field.
+
+![image](/images/scriptwebpagesource.PNG)
+
+With both of our web pages mapped, we will insert the customers name into our greeting text box. Your text box should look something like - 
+
+```
+Hi {{Customer Name}}, thanks for calling our super cool company that does things! My name is {{Scripter.Agent Name}}
+```
+
+If you ended up with your text box below the webpages, you can shift component by selecting the component and clicking the up or down arrow on the right hand side. 
+
+![image](/images/scriptupdown.PNG)
+
+Your script is now complete! It should look something like - 
+
+![image](/images/scriptcomplete.PNG)
+
+Neat huh?! We will now select **Script > Save, and Publish**.
+
+The very last item in basic scripting is the ability to create component templates and script templates out of either containers, individual components, or entire scripts. 
+
+You can create component template by selecting a container or component, and clicking the box icon next to the arrows and naming it - 
+
+![image](/images/scriptcomponenttemplate.PNG)
+
+These can be input into scripts using the same icon on the toolbar at the top and selecting the template by name.
+
+Full script templates are created by selecting **Script > Create Template From Script**. They are selected upon creating a new script.
