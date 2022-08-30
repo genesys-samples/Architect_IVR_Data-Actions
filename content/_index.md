@@ -6,11 +6,14 @@ weight: 1
 
 # Genesys Workshop Series
 
-## Welcome to the Genesys Cloud Data Action Workshop
+## Welcome to the Genesys Cloud Architect and Scripting Workshop
+
+The art of creating meaningful interactions
 
 ### Prerequisites
-Architect Workshop
-Data Action Construction Workshop
+  * Architect Workshop
+
+  * Data Action Construction Workshop
 
 ### Learning Objectives
 
