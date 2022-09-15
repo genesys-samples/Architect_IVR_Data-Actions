@@ -6,13 +6,12 @@ weight: 1
 
 # Genesys Workshop Series
 
-## Welcome to the Genesys Cloud Architect and Scripting Workshop
+## Welcome to the Scripting and Architect 200 workshop, Part 1 of 2 - Data Sources and Scripting
 
 The art of creating meaningful interactions
 
 ### Prerequisites
-  * Architect Workshop
-
+  * Architect 100 Workshop
   * Data Action Construction Workshop
 
 ### Learning Objectives
@@ -21,8 +20,7 @@ The art of creating meaningful interactions
 
 
 1. How to build an internal data source
-2. How to build a fully dynamic script with internal and external data source maps
-3. How to use advanced script functions such as custom actions
-3. How to use the Architect expression builder and wizard
-4. Best practices to apply to flow and script construction
+2. How to Reference an External Data Source
+3. How to build a fully dynamic script with internal and external data source maps
+4. How to use advanced script functions such as custom actions
 

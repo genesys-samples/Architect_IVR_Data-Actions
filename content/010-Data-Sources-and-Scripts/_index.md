@@ -1,5 +1,5 @@
 ---
-title: "Data Source and Script construction"
+title: "Data Source construction"
 chapter: true
 weight: 10
 ---
@@ -10,4 +10,4 @@ weight: 10
 
 ### Welcome
 
-In this section we will cover the construction of an internal data source, how to reference that within a Script, and advanced scripting concepts.
+In this section we will cover the construction of an internal data source as well as an external data source.
