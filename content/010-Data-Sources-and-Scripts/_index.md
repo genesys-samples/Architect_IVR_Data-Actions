@@ -1,5 +1,5 @@
 ---
-title: "Data Source construction"
+title: "Data Source Construction"
 chapter: true
 weight: 10
 ---
