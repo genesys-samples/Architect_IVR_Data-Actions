@@ -4,13 +4,23 @@ chapter: true
 weight: 1
 ---
 
-# Genesys Workshop
+# Genesys Workshop Series
 
-### Welcome
+## Welcome to the Scripting and Architect 200 workshop, Part 1 of 2 - Data Sources and Scripting
 
-In this workshop you will learn to apply your foundational knowledge of [Genesys](https://genesys.com) and master example use cases that demonstrate [Experience as a Service](https://www.genesys.com/experience-as-a-service).
+The art of creating meaningful interactions
+
+### Prerequisites
+  * Architect 100 Workshop
+  * Data Action Construction Workshop
 
 ### Learning Objectives
-- Setup and configure your environment.
-- Creating users and groups.
-- Configure security.
+
+**In this workshop, you will learn...**
+
+
+1. How to build an internal data source
+2. How to Reference an External Data Source
+3. How to build a fully dynamic script with internal and external data source maps
+4. How to use advanced script functions such as custom actions
+
