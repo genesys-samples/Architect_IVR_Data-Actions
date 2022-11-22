@@ -49,16 +49,18 @@ By navigating back to the variable panel on the upper right corner, and selectin
 
 The variable constructor allows you to define whether the values of the variable will be output from the script (to use in another source) or input to the script from another source (such as an architect flow). You can also define default values to display static information if no value is defined.
 
-We will construct the following 3 string variables which map directly to the data table we constructed previously, these will all be set as **Input** with no default value - 
-  * Customer Name
-  * Embedded Map
-  * KB URL
+We will construct the following 6 string variables which map directly to the data table we constructed previously, these will all be set as **Input** with no default value - 
+  * ANI 
+  * CustomerName
+  * Services
+  * EmbeddedMap
+  * KBURL
+  * DataTableID
 
 ![image](/images/scriptcustomvariable.PNG)
 
-We will add 2 more string variables with no direction set - 
-  * Case Status
-  * API Output
+We will add 1 more string variables with no direction set (leave outbound and inbound set to no) - 
+  * CaseStatus
 
 When you're done, you should have a list that looks like this - 
 

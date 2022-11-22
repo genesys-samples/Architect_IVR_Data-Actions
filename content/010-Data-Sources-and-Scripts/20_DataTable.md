@@ -7,7 +7,7 @@ weight: 20
 ## Data Table Construction
 ![image](/images/DTlimits.PNG)
 
-For this portion of the workshop we will construct an internal data source, or data table. The best practice when constructing a data table is asking the question - "What data would I possibly want to action off of, or present to an agent". While these tables can be added to down the line, "the art of the possible" is the best possible mindset in construction.
+For this portion of the workshop we will construct an internal data source, or data table. This data table will serve as the repository containing customer information that we will present to our agents. The best practice when constructing a data table is asking the question - "What data would I possibly want to action off of, or present to an agent". While these tables can be added to down the line, "the art of the possible" is the best possible mindset in construction.
 
 To begin we will navigate to Admin > Data Tables and select the **+** icon on the top right corner to construct a new table.
 
@@ -22,28 +22,35 @@ Data Tables have 2 primary components that we will need to define prior to popul
 ![image](/images/datatableconstruction.PNG)
 
 For our use case we will construct a data table with the following **string** type fields (with the key of ANI) -
-  * Customer Name
+  * CustomerName
+  * CaseStatus
   * Services
-  * Embedded map
-  * KB URL
+  * EmbeddedMap
+  * KBURL
 
 We will begin by populating a single row into this data table. 
 
 For ANI, we will enter in the number we will be calling from (we will not use .e164 or dashes as it will simplify ANI parsing later on). 
 
-For Customer Name you can enter any name you would like.
+For **CustomerName** you can enter any name you would like.
 
-For Services, we will define 2 services by a pipe, such as "Insurance|Childcare".
+For **CaseStatus** we will just provide a fake case status
 
-For Embedded map we will enter the following URL -
+For **Services** we will define 2 services by a pipe, such as "Insurance|Childcare".
+
+For **EmbeddedMap** we will enter the following URL -
 ```
 https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4328.119139375052!2d-105.04811270372998!3d39.90911499772483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8bb21a22f617%3A0xa3877b5da434ea5f!2sOrchard%20Park!5e0!3m2!1sen!2sus!4v1659042755728!5m2!1sen!2sus
 ```
 For KB URL you can enter a URL to any page you would like.
 > **Note: Not every web page is configured to be i-frameable, so it is important to test and ensure these pages display correctly at the script configuration.
 
-Once you have completed your row entry, it should look something like this -
+With our first row completed, we will add 1 more row with a different ANI that you can remember (such as 1234) and blank fields for the rest of the columns. 
 
-![image](/images/DTrow.PNG)
+Once you have completed your 2 row entries, your rows and columns should look something like this -
+
+![image](/images/DTrowcomplete.PNG)
+
+
 
 We've now completed our internal data source! You can continue to add additional fields to this data table as needed (to the constraints of the limits above).
