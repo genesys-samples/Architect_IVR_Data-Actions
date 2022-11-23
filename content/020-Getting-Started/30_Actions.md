@@ -66,5 +66,7 @@ Select your button, select No Action Selected under Click Action, and find your 
 
 ![image](/images/scriptbuttonaction.PNG)
 
-By navigating to preview, you can now test executing this action by entering a status and clicking the button.
+We should now **Publish** our script by selecting **Script > Publish** in the top left corner.
+
+We now have a fully functioning script! or at least we hope? Time to test...
 

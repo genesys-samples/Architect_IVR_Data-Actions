@@ -51,6 +51,4 @@ Once you have completed your 2 row entries, your rows and columns should look so
 
 ![image](/images/DTrowcomplete.PNG)
 
-
-
 We've now completed our internal data source! You can continue to add additional fields to this data table as needed (to the constraints of the limits above).

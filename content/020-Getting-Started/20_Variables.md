@@ -59,8 +59,9 @@ We will construct the following 6 string variables which map directly to the dat
 
 ![image](/images/scriptcustomvariable.PNG)
 
-We will add 1 more string variables with no direction set (leave outbound and inbound set to no) - 
+We will add 2 more string variables with no direction set (leave outbound and inbound set to no) - 
   * CaseStatus
+  * successresponse
 
 When you're done, you should have a list that looks like this - 
 
