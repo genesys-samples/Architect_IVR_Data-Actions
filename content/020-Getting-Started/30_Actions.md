@@ -6,6 +6,8 @@ weight: 30
 
 ## Built-in and Custom Actions
 
+As mentioned, one of the most powerful tools in scripting is the ability to invoke APIs of internal or external platforms. These allow the ability get, update, create or delete resources from the agent perspective in a very transparent manner.
+
 By navigating to the Play/Action icon on the upper right, we can see a list of all built in actions and have the ability to create custom actions.
 
 The script editor has various built-in actions that can be mapped to different constructors, such as transfer, change page etc. For this workshop, we will be creating a custom action by selecting the "**+**" icon.
@@ -16,13 +18,15 @@ We will name our action "Update Case", select **Add Step**, and select **Execute
 
 ![image](/images/scriptactionstep1.PNG)
 
-Search for your web services data action integration in the Category field, and select the Data Action you published earlier.
+Search for your Genesys Cloud Data Action integration in the Category field, and select the Data Action you published earlier.
 
-Within the input field we will type "**{{**" and select our Case Status variable. Then select your API Output variable in the output field.
+Within the input field we will type "**{{**", begin typing the matching variable names and click the variable to autocomplete -
 
-Your Execute Data Action should look as such -
+![image](/images/scriptactionautocomplete.PNG)
 
-![image](/images/scriptactiondata.PNG)
+Your Execute Data Action should look similar to this, with all additional fields above mapped -
+
+![image](/images/scriptactionmap.PNG)
 
 Select **Add Step**, and select **If/Else** to add another step to our action.
 
@@ -30,7 +34,7 @@ If/Else contructors allow us to compare data and execute different actions depen
 
 They are simply logical operators that allow us to say things like "**If** this equals this, **Then** do this, or **Else** do this.
 
-We will set out **Left Hand Side** to your **API Output** variable.
+We will set out **Left Hand Side** to your **successresponse** variable.
 
 Our **Operator** will be **Equals**.
 
@@ -38,9 +42,9 @@ And our **Right Hand Side** will be set to "Updated Successfully"
 
 What we've just constructed is the **If** portion of our If/else statement. At the top of the image below, the action constructor tells us what the logic we entered equates out to - 
 
-![image](/images/scriptactionifelse.PNG)
+![image](/images/scriptoutput.PNG)
 
-> **If the output from our API equals "Updated Successfully" Then...**
+> **If the output from our API equals "Case Updated Successfully" Then...**
 
 For this workshop we will trigger an alert to the agent to the agent to let them know the case updated successfully, however you can trigger numerous additional **Then** steps, including another custom action.
 
@@ -64,5 +68,7 @@ Select your button, select No Action Selected under Click Action, and find your 
 
 ![image](/images/scriptbuttonaction.PNG)
 
-By navigating to preview, you can now test executing this action by entering a status and clicking the button.
+We should now **Publish** our script by selecting **Script > Publish** in the top left corner.
+
+We now have a fully functioning script! or at least we hope? Time to test...
 

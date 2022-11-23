@@ -6,12 +6,12 @@ weight: 20
 
 ## Variables
 
-Everything (almost) within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container, and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
+Everything (almost) within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
 
 ```
 Hi, thanks for calling our super cool company that does things! 
 ```
-Our script is now displaying a static greeting that agents can read on every call. However, what if we want to have the agents say their name? or greet callers differently on a case by case basis. This is (at a very basic level) where variables absolutely shine (in a not incredibly glorious way)!
+Our script is now displaying a static greeting that agents can read on every call. The next question is - What if we want to have the agents say their name? or greet callers differently on a case by case basis. This is (at a very basic level) where variables absolutely shine (in a not incredibly glorious way)!
 
 There are a few different types of variables which we will break down into two categories - 
 
@@ -24,9 +24,9 @@ These are built in variables that can be referenced without any additional confi
 
 ![image](/images/scriptscriptervariables.PNG)
 
-Some fields require selecting your variable in a dropdown, while in other fields you can reference/input a variable by typing 2 squiggly brackets (as they're known in the science community), or **{{** when interacting with an input field such as a text box.
+Some fields require selecting your variable in a dropdown, while in other fields you can reference/input a variable by typing 2 **squiggly brackets** (as they're known in the science community), or **{{** when interacting with an input field such as a text box.
 
-By typing these within our text box, we are presented with a list of custom and scripter variables which can be input by selecting one. This list is also searchable by variable name, so it is best practice to use logical naming conventions.
+By typing these **squiggly brackets** within our text box, we are presented with a list of custom and scripter variables which can be input by selecting one. This list is also searchable by variable name, so it is best practice to use logical naming conventions if you choose to create custom variables.
 
 In the example below, we will make a fully customized script by simply adding "My name is", and using the squiggly brackets for find "Scripter.Agent Name"
 
@@ -40,25 +40,33 @@ Non-input variables, along with many other components, can be tested by selectin
 
 ![image](/images/scriptpreview.PNG)
 
-Within the preview window, we can see our {{Scripter.Agent Name}} variable is now displaying the names on our account. The preview window is useful for testing components and displaying the script without all of the container formatting. It can be exited by selecting the preview script button again.
+Within the preview window, we can see our {{Scripter.Agent Name}} variable is now displaying the name on our account. The preview window is useful for testing components and displaying the script without all of the container formatting and variables. It can be exited by selecting the preview script button again.
 
 #### Custom Variables
 These variables are created by you to customize your script, trigger visibility, data actions, script actions, etc.
 
 By navigating back to the variable panel on the upper right corner, and selecting the **+** icon you can see a list of the different variable types. We will focus on **Basic String** types for this workshop. You can click [**Here**](https://help.mypurecloud.com/articles/dynamic-script-variables/) for information on dynamic variables.
 
-The variable constructor allows you to define whether the values of the variable will be output from the script (to use in another source) or input to the script from another source (such as an architect flow). You can also define default values to display static information if no value is defined.
+The variable constructor allows you to define whether the values of the variable will be 
+ * Output from the script to be used in another flow or external platform (is there an external platform that we want to update from this script?)
+ or
+ * Input to the script from another source (is there an external platform that we want to populate this script?).
+ 
+ You can also define default values to display static information if no value is defined.
 
-We will construct the following 3 string variables which map directly to the data table we constructed previously, these will all be set as **Input** with no default value - 
-  * Customer Name
-  * Embedded Map
-  * KB URL
+We will construct the following 6 **string** variables which map directly to the data table we constructed previously, these will all be set as **Input** with **no default value** - 
+  * ANI 
+  * CustomerName
+  * Services
+  * EmbeddedMap
+  * KBURL
+  * DataTableID
 
 ![image](/images/scriptcustomvariable.PNG)
 
-We will add 2 more string variables with no direction set - 
-  * Case Status
-  * API Output
+We will add 2 more string variables with no direction set **(leave outbound and inbound set to no)** - 
+  * CaseStatus
+  * successresponse
 
 When you're done, you should have a list that looks like this - 
 
@@ -66,7 +74,7 @@ When you're done, you should have a list that looks like this -
 
 ### Building our Script
 
-With our 3 variables created, we will add the necessary components to map them to.
+With our variables created, we will add the necessary components to map them to.
 
 To start, we will delete the 2 buttons we've created (by selecting the button and clicking the trash can on the right side), making sure not to delete the containers themselves. Within the now empty containers, we will add web pages by selecting the **globe** icon while interacting with the container. The result should look like this - 
 
@@ -74,7 +82,7 @@ To start, we will delete the 2 buttons we've created (by selecting the button an
 
 > **You can select the webpage and navigate to layout to adjust the size**
 
-We will now map our Embedded Map and KB URL variables to these by selecting a web page component and inputing the variable into the "Web Page Source" Field.
+We will now map our **EmbeddedMap** and **KB URL** variables to these by selecting a web page component and inputing the variable into the "Web Page Source" Field.
 
 ![image](/images/scriptwebpagesource.PNG)
 
@@ -107,3 +115,5 @@ You can create component template by selecting a container or component, and cli
 These can be input into scripts using the same icon on the toolbar at the top and selecting the template by name.
 
 Full script templates are created by selecting **Script > Create Template From Script**. They are selected upon creating a new script.
+
+Both the component and script templates are powerful tools to minimizing new script construction.
