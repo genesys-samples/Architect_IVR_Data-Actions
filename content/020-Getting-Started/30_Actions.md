@@ -6,6 +6,8 @@ weight: 30
 
 ## Built-in and Custom Actions
 
+As mentioned, one of the most powerful tools in scripting is the ability to invoke APIs of internal or external platforms. These allow the ability get, update, create or delete resources from the agent perspective in a very transparent manner.
+
 By navigating to the Play/Action icon on the upper right, we can see a list of all built in actions and have the ability to create custom actions.
 
 The script editor has various built-in actions that can be mapped to different constructors, such as transfer, change page etc. For this workshop, we will be creating a custom action by selecting the "**+**" icon.

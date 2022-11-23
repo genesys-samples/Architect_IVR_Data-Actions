@@ -13,6 +13,8 @@ Welcome to the blank canvas!
 
 ![image](/images/scriptcanvas.PNG)
 
+For anyone new to the platform, or contact centers in general, the agent script interface doesn't have to look pretty, it just needs to function. This means without fancy logo's and colors, just by I-framing a website, or putting a talk track into a text box, we can bolster our agent experience. We will cover both formatting and functionality below but it's important to understand that **you can bolster your agents with minimal effort** by simply embedding a few tools, or creating a few fields.
+
 While we encourage all forms of artistic design, for this portion of the workshop we will build a script that, while not the most beautiful, demonstrates the simplicity of providing powerful information to the agents.
 
 Before we begin, it is important to understand the concepts and fundamentals of script construction. 
@@ -21,7 +23,7 @@ By Selecting "Script" (top left corner of your blank script) > Script Properties
 
 ![image](/images/scriptproperties.PNG)
 
-In the same "Script" button, you will also see a "Save" button. It is recommended to save frequently to avoid losing your work!
+In the same "Script" button, you will also see a "Save" button. It is recommended to save frequently to avoid losing your (art)work!
 
 Scripts can be very simple with static components, meaning we can display the same script to a set of agents (or all agents) on every call. Even a static script can provide incredibly beneficial information, or even embedded tools to an agent.
 
