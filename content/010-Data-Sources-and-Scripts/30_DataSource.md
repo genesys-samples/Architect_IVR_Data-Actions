@@ -8,7 +8,7 @@ weight: 30
 
 Scripts can be used to provide powerful tooling, such as embedding tools, providing knowledge suggestions and customer information. One of the most powerful functions scripts offer is the ability to tie API calls to the buttons and fields agents are interacting with inside of the agent script interface. This allows agents to update external or internal case records, process payments, schedule appointments etc. in a transparent and simplified manner without ever navigating away from Genesys Cloud.
 
-For this workshop, we will be using the internal data table we just created as a mock external data source. We will import a data action that updates the **CaseStatus** field for a row within our data table. While this is an internal data action, the methodology can be used for external actions.
+For this workshop, we will be using the internal data table we just created as a mock data source. We will import a data action that updates the **CaseStatus** field for a row within our data table. While this is an internal data action, the methodology can be used for external actions.
 
 While still within the data table we constructed, we will copy the data table GUID and store this for later reference. This can be found within the address bar as seen below - 
 

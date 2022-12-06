@@ -8,6 +8,4 @@ weight: 10
 
 ## Introduction
 
-### Welcome
-
-In this section we will cover the construction of an internal data source as well as an external data source.
+### WelcomeIn this section, we will cover the construction of an internal data source as well as an external data source.

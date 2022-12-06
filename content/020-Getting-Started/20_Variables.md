@@ -6,7 +6,7 @@ weight: 20
 
 ## Variables
 
-Everything (almost) within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
+Almost everything within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
 
 ```
 Hi, thanks for calling our super cool company that does things! 
