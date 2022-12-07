@@ -6,6 +6,8 @@ weight: 30
 
 ## Referencing a Data Source
 
+>**Note: We will reference our data table as a "Mock CRM" or "DB", these data sources are not designed to be replacements for CRM's.**
+
 Scripts can be used to provide powerful tooling, such as embedding tools, providing knowledge suggestions and customer information. One of the most powerful functions scripts offer is the ability to tie API calls to the buttons and fields agents are interacting with inside of the agent script interface.
 
 From the agent perspective, we can update a customer case, schedule an appointment or many other options without leaving our Genesys Cloud interface. From the customer perspective, this equates to a streamlined interaction where the person I'm interacting with quickly completes these tasks. 
