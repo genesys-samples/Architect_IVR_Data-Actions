@@ -6,6 +6,9 @@ weight: 20
 
 ## Variables
 
+Before pulling in any external data, its always important to review what data may be native in the script interface: Built-in Script Variables can be found within our resource center - https://help.mypurecloud.com/articles/built-in-script-variables/. This will provide a list of items that are stored natively without requiring a data look-up!
+
+
 Everything (almost) within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
 
 ```
@@ -54,7 +57,7 @@ The variable constructor allows you to define whether the values of the variable
  
  You can also define default values to display static information if no value is defined.
 
-We will construct the following 6 **string** variables which map directly to the data table we constructed previously, these will all be set as **Input** with **no default value** - 
+We will construct the following 6 **string** variables which map directly to the data table we constructed previously, these will all be toggled to **Input Yes** with **no default value** - 
   * ANI 
   * CustomerName
   * Services
@@ -64,7 +67,7 @@ We will construct the following 6 **string** variables which map directly to the
 
 ![image](/images/scriptcustomvariable.PNG)
 
-We will add 2 more string variables with no direction set **(leave outbound and inbound set to no)** - 
+We will add 2 more string variables with no direction set **(leave Output and Input toggled to no)** - 
   * CaseStatus
   * successresponse
 
@@ -82,7 +85,7 @@ To start, we will delete the 2 buttons we've created (by selecting the button an
 
 > **You can select the webpage and navigate to layout to adjust the size**
 
-We will now map our **EmbeddedMap** and **KB URL** variables to these by selecting a web page component and inputing the variable into the "Web Page Source" Field.
+We will now map our **EmbeddedMap** and **KB URL** variables to these by selecting a web page component and inputting the variable into the "Web Page Source" Field.
 
 ![image](/images/scriptwebpagesource.PNG)
 

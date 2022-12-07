@@ -10,7 +10,7 @@ To close out part 1 of this workshop, we will create a simple architect flow tha
 
 To start we will construct a queue:
 
-If you didnt attend the prerequisite workshops - 
+If you didn't attend the prerequisite workshops - 
 1. Navigate to Admin > Queues, **Create Queue**.
 ![image](/images/queuecreate.PNG)
 

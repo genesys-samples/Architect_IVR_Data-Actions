@@ -30,7 +30,7 @@ Your Execute Data Action should look similar to this, with all additional fields
 
 Select **Add Step**, and select **If/Else** to add another step to our action.
 
-If/Else contructors allow us to compare data and execute different actions depending on the outcome. 
+If/Else constructors allow us to compare data and execute different actions depending on the outcome. 
 
 They are simply logical operators that allow us to say things like "**If** this equals this, **Then** do this, or **Else** do this.
 

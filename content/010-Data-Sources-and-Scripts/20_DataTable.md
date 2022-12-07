@@ -31,6 +31,8 @@ For our use case we will construct a data table with the following **string** ty
   * EmbeddedMap
   * KBURL
 
+>**Items such as the embedded map and KB url are added to showcase the ability for us to embed webpages to assist our agents based upon customer indicators such as their address (Embedded map) or knowledge articles relating to their equipment or services (KBURL)**
+
 We will begin by populating a single row into this data table. 
 
 For ANI, we will enter in the number we will be calling from (we will not use .e164 or dashes as it will simplify ANI parsing later on). 
@@ -54,7 +56,7 @@ Once you have completed your 2 row entries, your rows and columns should look so
 
 ![image](/images/DTrowcomplete.PNG)
 
-While it may seem basic, we've layed the basic building blocks to provide our agents interactive maps based upon the customers location, knowledgebase suggestions based upon indicators from the customers account, and base level account information that customers hate having to offer to both the IVR and the agent.
+While it may seem basic, we've layed the basic building blocks to provide our agents interactive maps based upon the customers location, knowledge base suggestions based upon indicators from the customers account, and base level account information that customers hate having to offer to both the IVR and the agent.
 
 If a customer calls in and matches this record, you can **WOW** them with what you know about their account, and this is a very rudimentary and difficult way of pulling a customers information because we're building it locally.
 

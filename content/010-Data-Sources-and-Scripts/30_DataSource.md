@@ -1,12 +1,14 @@
 ---
-title: "Data Sources"
+title: "Referencing a Data Source"
 chapter: false
 weight: 30
 ---
 
 ## Referencing a Data Source
 
-Scripts can be used to provide powerful tooling, such as embedding tools, providing knowledge suggestions and customer information. One of the most powerful functions scripts offer is the ability to tie API calls to the buttons and fields agents are interacting with inside of the agent script interface. This allows agents to update external or internal case records, process payments, schedule appointments etc. in a transparent and simplified manner without ever navigating away from Genesys Cloud.
+Scripts can be used to provide powerful tooling, such as embedding tools, providing knowledge suggestions and customer information. One of the most powerful functions scripts offer is the ability to tie API calls to the buttons and fields agents are interacting with inside of the agent script interface.
+
+From the agent perspective, we can update a customer case, schedule an appointment or many other options without leaving our Genesys Cloud interface. From the customer perspective, this equates to a streamlined interaction where the person I'm interacting with quickly completes these tasks. 
 
 For this workshop, we will be using the internal data table we just created as a mock external data source. We will import a data action that updates the **CaseStatus** field for a row within our data table. While this is an internal data action, the methodology can be used for external actions.
 
@@ -26,7 +28,7 @@ After extracting this folder on your local machine, navigate to Genesys Cloud > 
 
 ![image](/images/daconstruct.PNG)
 
-To validate that the data action works properly, within the data action we just imported, we will navigate to Setup > Test, enter in fake information for every field **except ANI** where we will enter in the ANI we provided (1234) for our blank row entry and select **Run Action**. If the action returns green/successful, we can navigate back to our data table and see these updates to that row, however at this point we should be able to **Save & Publish** our data action.
+To validate that the data action works properly, within the data action we just imported, we will navigate to Setup > Test, enter in fake information for every field **except ANI** where we will enter in the ANI we provided (1234) for our blank row entry, as well as the **DataTableID** where we will input the data table GUID we've saved. Select **Run Action**, if the action returns green/successful, we can navigate back to our data table and see these updates to that row, however at this point we should be able to **Save & Publish** our data action.
 
 ![image](/images/DAtest.PNG)
 
