@@ -7,7 +7,7 @@ weight: 10
 ## Definitions
 
 ### Data Sources
-A data source is any place an organization may store data that we want to reference to invoke routing decisions or provide powerful agent tooling.
+A data source is any place an organization may store customer (or other) data that we want to reference to invoke routing decisions or provide powerful agent tooling.
 
 We will divide this into 2 types, **Internal Data Sources** and **External Data Sources**.
 

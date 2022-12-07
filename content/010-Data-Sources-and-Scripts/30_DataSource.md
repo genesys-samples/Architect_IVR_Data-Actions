@@ -12,15 +12,17 @@ From the agent perspective, we can update a customer case, schedule an appointme
 
 For this workshop, we will be using the internal data table we just created as a mock external data source. We will import a data action that updates the **CaseStatus** field for a row within our data table. While this is an internal data action, the methodology can be used for external actions.
 
+### Lets Get Started
+
 While still within the data table we constructed, we will copy the data table GUID and store this for later reference. This can be found within the address bar as seen below - 
 
 ![image](/images/DTguid.PNG)
 
 With our data table GUID saved, we will download and import an already constructed data action.
 
-If you do not have an Oauth Client with **Data Table Write** permissions, or do not have a **Genesys Cloud Data Actions** integration installed, please reference the following page from the [Data Action Workshop](https://workshop.genesys.com/workshops/DataActionsWorkshop/020-configuration/30_third.html), note this does not specify a specific Oauth role but demonstrates how to construct the client and allocate permissions.
+If you do not have an Oauth Client with **Data Table Write** permissions, or do not have a **Genesys Cloud Data Actions** integration installed, please reference the following page from the [**Data Action Workshop**](https://workshop.genesys.com/workshops/DataActionsWorkshop/020-configuration/30_third.html), note this does not specify a specific Oauth role but demonstrates how to construct the client and allocate permissions.
 
-To import the data action, navigate to - https://github.com/GSC-Shared-Resources/ArchitectWorkshopContent, select the green **Code** button, and download zip.
+To import the data action, navigate to - **https://github.com/GSC-Shared-Resources/ArchitectWorkshopContent**, select the green **Code** button, and download zip.
 
 ![image](/images/githubdl.PNG)
 

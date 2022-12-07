@@ -6,10 +6,11 @@ weight: 20
 
 ## Variables
 
-Before pulling in any external data, its always important to review what data may be native in the script interface: Built-in Script Variables can be found within our resource center - https://help.mypurecloud.com/articles/built-in-script-variables/. This will provide a list of items that are stored natively without requiring a data look-up!
+Everything (almost) within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container by clicking into our **main vertical container** and selecting the text box icon -
 
+![image](/images/scripttextbox.PNG)
 
-Everything (almost) within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
+Within this text box, we will paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
 
 ```
 Hi, thanks for calling our super cool company that does things! 
@@ -23,7 +24,10 @@ There are a few different types of variables which we will break down into two c
 **2. Custom variables.**
 
  #### Scripter Variables
-These are built in variables that can be referenced without any additional configuration, such as the agent and queue name. A full list can be found by selecting the variable (or cube shaped icon in the upper right corner) and expanding the "Scripter" drop down.
+
+Before pulling in any external data, its always important to review what data may be native in the script interface: Built-in Script Variables can be found within our resource center - https://help.mypurecloud.com/articles/built-in-script-variables/. This will provide a list of items that are stored natively without requiring a data look-up.
+
+These are data elements that can be referenced without any additional configuration, such as the agent and queue name. A full list can be found by selecting the variable (or cube shaped icon in the upper right corner) and expanding the "Scripter" drop down.
 
 ![image](/images/scriptscriptervariables.PNG)
 
@@ -99,15 +103,17 @@ If you ended up with your text box below the webpages, you can shift component b
 
 ![image](/images/scriptupdown.PNG)
 
-We will Finish by adding an input field and a button beneath these web pages
+We will finish by adding an input field and a button beneath these web pages
 
 ![image](/images/scriptbuttoninput.PNG)
+
+We will update these 2 fields in the next section of our workshop.
 
 Your script design is now complete! It should look something like - 
 
 ![image](/images/scriptcomplete2.PNG)
 
-Neat huh?! At this point, we like to consider this modern contemporary CX art.. We will now select **Script > Save, and Publish**.
+Neat huh?! At this point, we like to consider this modern contemporary CX art.. We will now select **Script > Save**.
 
 The very last item in basic scripting is the ability to create component templates and script templates out of either containers, individual components, or entire scripts. 
 

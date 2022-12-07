@@ -10,7 +10,13 @@ weight: 20
 For this portion of the workshop we will construct an internal data source, or **Data Table**. This data table will serve as the repository containing customer information that we will present to our agents. 
 
 Keeping in mind the base idea of **"Creating more meaningful interactions"**,
-the best practice when constructing a data table is asking the question -  **"What information can I provide to my agent to make this a catered experience for the customer"**. Regardless of whether you're interacting with an external CRM or an internal data table, **more is more**. This means, store, import or pull as much information for a customer as possible, even if you wont use it now, you may use it later. If I knew the customers favorite sports team, I could use that to create a more meaningful interaction! 
+the best practice when constructing a data table, or any data source, is to as yourself 2 questions -
+1. **"What information can I provide to my agent to simplify their role, make them more confident and empower them to create a meaningful interaction"** 
+2. **"What information should we have about the customer and what will they expect us to know?"**
+
+Regardless of whether you're interacting with an external CRM or an internal data table, **more is more**. This means, store, import or pull as much information for a customer as possible, even if you wont use it now, you may use it later. If I knew the customers favorite sports team, I could use that to create a more meaningful interaction!
+
+>Disclaimer: Knowing the customers favorite sports team may be considered off putting and somewhat creepy.
 
 To begin we will navigate to Admin > Data Tables and select the **+** icon on the top right corner to construct a new table.
 
@@ -19,7 +25,7 @@ Data Tables have 2 primary components that we will need to define prior to popul
   * **Reference Key Label** - This is the 'key', or the piece of data that will be used to reference a specific row in the data table. In the example below we are using ANI, or the callers phone number, to look up the specific row of data.
   > **During construction, ANI is simply the name we are giving this column, or key. You can enter any value into this field, but this is the field we will use to find our customer.**
 
-  * **Custom Fields** - These fields are ultimately the data we are trying to gather by looking up the customers ANI. This could be simple items such as their name and address or more advanced items such as KB articles that will help an agent troubleshoot their account, or items such as external account numbers for use in future data actions. 
+  * **Custom Fields** - These fields are ultimately the data we are trying to gather by looking up the customers ANI. This could be simple items such as their name and address or more advanced items such as KB articles that will help an agent troubleshoot their account, or external account numbers for use in future data actions. 
 > **In the image below you can see the 4 variable types for these fields. Upon selecting a variable type you will need to name the field, and if desired provide a default value (this is useful if many rows will house the same data for the agent script or routing).**
 
 ![image](/images/datatableconstruction.PNG)
@@ -33,7 +39,7 @@ For our use case we will construct a data table with the following **string** ty
 
 >**Items such as the embedded map and KB url are added to showcase the ability for us to embed webpages to assist our agents based upon customer indicators such as their address (Embedded map) or knowledge articles relating to their equipment or services (KBURL)**
 
-We will begin by populating a single row into this data table. 
+We will begin by populating a single row into this data table by selecting the **+** icon on the upper right. 
 
 For ANI, we will enter in the number we will be calling from (we will not use .e164 or dashes as it will simplify ANI parsing later on). 
 
@@ -56,9 +62,9 @@ Once you have completed your 2 row entries, your rows and columns should look so
 
 ![image](/images/DTrowcomplete.PNG)
 
-While it may seem basic, we've layed the basic building blocks to provide our agents interactive maps based upon the customers location, knowledge base suggestions based upon indicators from the customers account, and base level account information that customers hate having to offer to both the IVR and the agent.
+While it may seem basic, we've layed the building blocks to provide our agents interactive maps based upon the customers location, knowledge base suggestions based upon indicators from the customers account, and base level account information that customers hate having to offer to both the IVR and the agent.
 
-If a customer calls in and matches this record, you can **WOW** them with what you know about their account, and this is a very rudimentary and difficult way of pulling a customers information because we're building it locally.
+If a customer calls in and matches this record, you can **WOW** them with what you know about their account, though this is a very rudimentary and difficult way of pulling a customers information because we're building it locally.
 
  In this case, this information is relatively static, but by interfacing with external platforms this information can be pulled and used on the fly!
 
