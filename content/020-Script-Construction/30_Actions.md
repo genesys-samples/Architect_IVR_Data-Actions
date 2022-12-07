@@ -30,7 +30,7 @@ Your Execute Data Action should look similar to this, with all additional fields
 
 Select **Add Step**, and select **If/Else** to add another step to our action.
 
-If/Else contructors allow us to compare data and execute different actions depending on the outcome. 
+If/Else constructors allow us to compare data and execute different actions depending on the outcome. 
 
 They are simply logical operators that allow us to say things like "**If** this equals this, **Then** do this, or **Else** do this.
 
@@ -60,11 +60,11 @@ Expand the If/Else action by clicking the If box and add a step under **Else**. 
 
 We're ready to map this action!
 
-Select your input field and select your "Case Status" variable within the Value drop down. Within the Placeholder field, you can enter something like "Enter Case Status", this text will display to the agent on this field before they enter any text into it (you can see placeholder text by going into preview mode).
+Select the **text input field** you constructed in the previous section and select your "Case Status" variable within the Value drop down. Within the Placeholder field, you can enter something like "Enter Case Status", this text will display to the agent on this field before they enter any text into it (you can see placeholder text by going into preview mode).
 
 ![image](/images/scriptinputfield.PNG)
 
-Select your button, select No Action Selected under Click Action, and find your action within the custom drop down.
+Select the empty **button** you created in the previous selection, select No Action Selected under Click Action, and find your action within the custom drop down.
 
 ![image](/images/scriptbuttonaction.PNG)
 
