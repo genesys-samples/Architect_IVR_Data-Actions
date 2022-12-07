@@ -7,6 +7,8 @@ weight: 20
 ## Data Table Construction
 ![image](/images/DTlimits.PNG)
 
+The idea of this section is to create a repository for customer data. A customer will call in, through a basic IVR look-up we will find the customers information in our data table and be able to present it to the agent via the script we will construct later on.
+
 For this portion of the workshop we will construct an internal data source, or **Data Table**. This data table will serve as the repository containing customer information that we will present to our agents. 
 
 Keeping in mind the base idea of **"Creating more meaningful interactions"**,

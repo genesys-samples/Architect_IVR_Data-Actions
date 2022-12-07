@@ -4,7 +4,17 @@ chapter: true
 weight: 1
 ---
 
-# The Art of Creating Meaningful Interactions
+# The Art of Creating Meaningful Interactions - Part 1
+
+## What is the Goal of this Workshop?
+
+The goal of part 1 of this 2 part workshop series is to show how we can utilize scripts to provide incredibly powerful tools to the agents with minimal effort. By the end we will have constructed and tested an agent script that will provide interactive maps, knowledge base articles and allow for agents to update a fake customer record. The target audience is anyone 
+
+We will walk through a simple data source construction as well as an understanding of the scripting interface to introduce the basic concepts required to make more advanced scripts. We will move into custom script actions to showcase at a intermediate level how to we can use scripts to allow our agents to execute powerful functions such as updating customer records.
+
+## Who is the Target Audience?
+
+The target audience of this workshop is anyone new to the agent script interface, particularly prospective or onboarding customers that want to learn how we can leverage a powerful native tool to begin assisting our agents and improving our the experience for our customers.
 
 ## How do you define a meaningful interaction?
 
@@ -23,9 +33,6 @@ Next lets set ourselves in the shoes of the provider - For anyone that has worke
 The fact is, the issues for customers are echoed by the agents. The long hold time for a customer is derived by the long handle time of the agent. However, we can't look at the customer for hints as to why they're holding for so long, the emphasis immediately goes on the agent.
 
 With the right resources, an agent can make meaningful connections with their customers, well beyond asking for their account number and telling them their case status...
-The goal of part 1 of this 2 part workshop series is to show how we can utilize scripts to provide incredibly powerful tools to the agents with minimal effort.
-
-We will walk through a simple data source construction as well as an understanding of the scripting interface to introduce the basic concepts required to make more advanced scripts. We will move into custom script actions to showcase at a intermediate level how to we can use scripts to allow our agents to execute powerful functions.
 
 
 ### Prerequisites
@@ -35,7 +42,6 @@ We will walk through a simple data source construction as well as an understandi
 ### Learning Objectives
 
 **In this workshop, you will learn...**
-
 
 1. How to build an internal data source
 2. How to reference and update this data source within the agent scripting interface

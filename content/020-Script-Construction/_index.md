@@ -6,7 +6,7 @@ weight: 20
 
 ## Building your Script
 
-So we've got a data source constructed and we're ready to present all of this incredibly meaningful information to our agents, but how does the script know this data exists? How do we construct the building blocks that this information needs to plug into?? Most importantly (the question you're all asking yourselves), **how do we make it look pretty?**
+At this point, we've constructed a data source and we're ready to present all of this incredibly meaningful information to our agents, but how does the script know this data exists? How do we construct the building blocks that this information needs to plug into?? Most importantly (the question you're all asking yourselves), **how do we make it look pretty?**
 
 In this section we will cover -
   * **Containers and Formatting** - How do we align and store configuration elements in a method that is presentable and easy to consume?
