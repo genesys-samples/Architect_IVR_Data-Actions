@@ -7,7 +7,7 @@ locale: "pt-BR"
 
 ## Testamdo Nosso Script
 
-Para fechar a parte 1 deste workshop, criaremos um fluxo de Architect simples que chama nossa tabela de dados, define os retornos como variáveis utilizáveis e os mapeia para um script de agente. Estaremos examinando todas as partes do Architect em **Muito** mais detalhesna parte 2. Para esta parte, estamos simplesmente criando um fluxo básico para testar nosso script e garantir que ele funcione.
+Para fechar a parte 1 deste workshop, criaremos um fluxo de Architect simples que chama nossa tabela de dados, define os retornos como variáveis utilizáveis e os mapeia para um script de agente. Estaremos examinando todas as partes do Architect em **Muito** mais detalhes na parte 2. Para esta parte, estamos simplesmente criando um fluxo básico para testar nosso script e garantir que ele funcione.
 
 Para começar vamos construir uma fila:
 
@@ -45,7 +45,7 @@ Dentro do caminho encontrado da nossa tabela de dados vamos arrastar um operador
 
 No lado direito, selecionaremos nosso script e começaremos a mapear as **Saídas** de nossa **Tabela de Dados** para as **Variáveis de Entrada** que construimos em nosso script. Simplificando, temos dados saindo de nossa tabela de dados, que precisamos inserir em nosso script para que os agentes vejam.
 
- Vamos mapear as variáveis que recuperamos de nossa pesquisa de tabela de dados para as entradas solicitadas para nosso script com algumas exceções, seus campos pop-up de tela devem se parecer com o diagrama abaixo, novamente,**isso será esclarecido e declarado na parte 2**. Por enquanto, estamos apenas testando nosso script para garantir que funcione.
+ Vamos mapear as variáveis que recuperamos de nossa pesquisa de tabela de dados para as entradas solicitadas para nosso script com algumas exceções, seus campos pop-up de tela devem se parecer com o diagrama abaixo, novamente, **isso será esclarecido e declarado na parte 2**. Por enquanto, estamos apenas testando nosso script para garantir que funcione.
 
 
 ![image](/images/architectscriptmap.PNG)
@@ -68,7 +68,7 @@ Navegue até Administração > Roteamento de chamadas, **Adicione Rota de Chamad
 
 ![image](/images/callrouting.PNG)
 
-Ao ligar para o número que você atribuiu, você está ligando para o fluxo que acabou de criar com o **Data Table Lookup and Set Script**. If you assigned yourself as a member of the queue you should be able visually see the items we constructed.
+Ao ligar para o número que você atribuiu, você está ligando para o fluxo que acabou de criar com a **DPesquisa na Tabela de Dados e Definir Inicialização de tela**. Se você se atribuiu como membro da fila, poderá receber visualmente os itens que construímos em sua tela.
 
 
 

@@ -17,7 +17,7 @@ a melhor prática ao construir uma tabela de dados, ou qualquer fonte de dados, 
 1. **"Quais informações posso fornecer ao meu agente para simplificar seu trabalho, torná-lo mais confiante e capacitá-lo para criar uma interação significativa"** 
 2. **"Que informações devemos ter sobre o cliente e o que eles esperam que saibamos?"**
 
-Independentemente de você estar interagindo com um CRM externo ou uma tabela de dados interna, **mais é mais**. Significando guardar, importar ou consehuir a maior quantidade de informação possível sobre o cliente, mesmo que você não queira usá-la agora, você poderá usar mais tarde. Se eu soubesse o time favorito do clientes, poderia usar esse dado para criar uma interação mais significativa!
+Independentemente de você estar interagindo com um CRM externo ou uma tabela de dados interna, **mais é mais**. Significando guardar, importar ou conseguir a maior quantidade de informação possível sobre o cliente, mesmo que você não queira usá-la agora, você poderá usar mais tarde. Se eu soubesse o time favorito do clientes, poderia usar esse dado para criar uma interação mais significativa!
 
 >Ressalva: Conhecer o time de esportes favorito do cliente pode ser considerado desagradável e um tanto assustador.
 
@@ -65,7 +65,7 @@ Depois de concluir suas entradas de 2 linhas, suas linhas e colunas devem se par
 
 ![image](/images/DTrowcomplete.PNG)
 
-Embora possa parecer básico, estabelecemos os blocos de construção para fornecer aos nossos agentes mapas interativos com base na localização do cliente, sugestões de base de conhecimento com base em indicadores da conta do cliente e informações de conta de nível básico que os clientes odeiam ter a oferecer tanto para a URA quanto para o agente.
+Embora possa parecer básico, estabelecemos os blocos de construção para fornecer aos nossos agentes mapas interativos com base na localização do cliente, sugestões de base de conhecimento com base em indicadores da conta do cliente e informações de conta de nível básico que os clientes odeiam ter que contar tanto para a URA quanto para o agente.
 
 Se um cliente ligar e corresponder a esse registro, você pode **ENCANTÁ-LOS** com o que você sabe sobre a conta deles, embora essa seja uma maneira muito rudimentar e difícil de obter as informações de um cliente porque estamos construindo localmente.
 

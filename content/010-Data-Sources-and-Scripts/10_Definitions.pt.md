@@ -21,6 +21,6 @@ Genesys Cloud também tem um construtor de 'base de dados', chamado **Tabelas de
 Qualquer sistema externo ao ambiente Genesys Cloud que hospeda dados que queremos referenciar para roteamento e para o script é considerado uma fonte de dados externa. Exemplos típicos seriam CRM e bases de dados. A interação com esses sistemas geralmente requer ações de dados (data action) ou integrações personalizados.
 
 ### Scripts
-Scripts (Roteiros de Atendimento) são o que a Genesys define como a tela do agente. Usando dados de fontes internas e externas, agentes podem ter em sua tela ferramentas poderosas tais como informação do registo do cliente, artigos de bases de conhecimento, a habilidade de executar ações de dados (data actions) com um click de mopuse e muitas outras funcionalidades que permitem que as centrais de atendimento criem **interações com significado**.
+Scripts (Roteiros de Atendimento) são o que a Genesys define como a tela do agente. Usando dados de fontes internas e externas, agentes podem ter em sua tela ferramentas poderosas tais como informação do registo do cliente, artigos de bases de conhecimento, a habilidade de executar ações de dados (data actions) com um click de mouse e muitas outras funcionalidades extras que permitem que as centrais de atendimento criem **interações com significado**.
 
 
