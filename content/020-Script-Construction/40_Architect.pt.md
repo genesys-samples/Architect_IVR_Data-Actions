@@ -68,7 +68,7 @@ Navegue até Administração > Roteamento de chamadas, **Adicione Rota de Chamad
 
 ![image](/images/callrouting.PNG)
 
-Ao ligar para o número que você atribuiu, você está ligando para o fluxo que acabou de criar com a **DPesquisa na Tabela de Dados e Definir Inicialização de tela**. Se você se atribuiu como membro da fila, poderá receber visualmente os itens que construímos em sua tela.
+Ao ligar para o número que você atribuiu, você está ligando para o fluxo que acabou de criar com a **Pesquisa na Tabela de Dados e Definir Inicialização de tela**. Se você se atribuiu como membro da fila, poderá receber visualmente os itens que construímos em sua tela.
 
 
 
