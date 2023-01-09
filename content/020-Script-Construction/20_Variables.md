@@ -6,7 +6,9 @@ weight: 20
 
 ## Variables
 
+
 Almost everything within a script **can** be a variable. Not everything needs to be, or should be a variable. To demonstrate this we will add a text box to our main vertical container and paste in the text below. (based upon the example below, you can clearly just type something in here if you don't want to copy and paste)
+
 
 ```
 Hi, thanks for calling our super cool company that does things! 
@@ -20,7 +22,9 @@ There are a few different types of variables which we will break down into two c
 **2. Custom variables.**
 
  #### Scripter Variables
+
 These are built in variables that can be referenced without any additional configuration, such as the agent and queue name. A full list can be found by selecting the variable (or cube shaped icon in the upper right corner) and expanding the "Scripter" drop down.
+
 
 ![image](/images/scriptscriptervariables.PNG)
 
@@ -54,7 +58,9 @@ The variable constructor allows you to define whether the values of the variable
  
  You can also define default values to display static information if no value is defined.
 
+
 We will construct the following 6 **string** variables which map directly to the data table we constructed previously, these will all be set as **Input** with **no default value** - 
+
   * ANI 
   * CustomerName
   * Services
@@ -64,7 +70,9 @@ We will construct the following 6 **string** variables which map directly to the
 
 ![image](/images/scriptcustomvariable.PNG)
 
+
 We will add 2 more string variables with no direction set **(leave outbound and inbound set to no)** - 
+
   * CaseStatus
   * successresponse
 
@@ -82,7 +90,9 @@ To start, we will delete the 2 buttons we've created (by selecting the button an
 
 > **You can select the webpage and navigate to layout to adjust the size**
 
+
 We will now map our **EmbeddedMap** and **KB URL** variables to these by selecting a web page component and inputing the variable into the "Web Page Source" Field.
+
 
 ![image](/images/scriptwebpagesource.PNG)
 
@@ -96,6 +106,7 @@ If you ended up with your text box below the webpages, you can shift component b
 
 ![image](/images/scriptupdown.PNG)
 
+
 We will Finish by adding an input field and a button beneath these web pages
 
 ![image](/images/scriptbuttoninput.PNG)
@@ -104,7 +115,9 @@ Your script design is now complete! It should look something like -
 
 ![image](/images/scriptcomplete2.PNG)
 
+
 Neat huh?! At this point, we like to consider this modern contemporary CX art.. We will now select **Script > Save, and Publish**.
+
 
 The very last item in basic scripting is the ability to create component templates and script templates out of either containers, individual components, or entire scripts. 
 

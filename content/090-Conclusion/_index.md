@@ -12,5 +12,5 @@ This entire workshop has been leading us up to part 2 of the **Meaningful Intera
  
  The knowledge base URL, and at a base level, all of the tooling can be hard coded to show every agent the same information, which is information that isn't so readily available on other platforms.
 
- This workshop leads us into part 2, where we will learn how we can use architect and routing to enhance this experience and target the appropriate audience. 
+ This workshop leads us into part 2, where we will learn how we can use Architect and routing to enhance this experience and target the appropriate audience. 
 
