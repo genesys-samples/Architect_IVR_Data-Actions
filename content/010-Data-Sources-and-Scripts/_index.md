@@ -15,3 +15,5 @@ In this section we will explore how we can use data sources to provide a truly u
 While we will be building and referencing data that is stored local to the platform, the concepts apply to any external data source, such as popular CRM's or any home brewed application with a RESTful API.
 
 
+### Welcome! In this section, we will cover the construction of an internal data source as well as an external data source.
+

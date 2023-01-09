@@ -12,7 +12,7 @@ Scripts can be used to provide powerful tooling, such as embedding tools, provid
 
 From the agent perspective, we can update a customer case, schedule an appointment or many other options without leaving our Genesys Cloud interface. From the customer perspective, this equates to a streamlined interaction where the person I'm interacting with quickly completes these tasks. 
 
-For this workshop, we will be using the internal data table we just created as a mock external data source. We will import a data action that updates the **CaseStatus** field for a row within our data table. While this is an internal data action, the methodology can be used for external actions.
+For this workshop, we will be using the internal data table we just created as a mock data source. We will import a data action that updates the **CaseStatus** field for a row within our data table. While this is an internal data action, the methodology can be used for external actions.
 
 ### Lets Get Started
 
